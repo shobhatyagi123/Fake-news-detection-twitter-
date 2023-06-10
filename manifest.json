@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+  
+    "name": "FakeTweet",
+    "description": "This extension detects fake news on Twitter.\nOpen a tweet,right click on it and select FakeTweet : CHECK credibility, to know it's credibility",
+    "version": "1.0",
+     
+"icons": { 
+          "512": "icon.png"},
+    
+    "background": {
+      "scripts": ["extract_tweet.js"]
+      },
+  
+    "permissions": [
+            "storage",
+            "notifications",
+            "contextMenus"
+          ]
+  
+    
+  }
